@@ -1,0 +1,14 @@
+julia set is a set of complex numbers which do not converge to any limit when a given mapping is repeatedly applied to them.
+In some cases the result is a connected fractal set.
+the only difference between julia set and mandelbrotset is that,in julia set Zn+1=(Zn*Zn)+K,where K is some choosen constant,which is 
+again a complex number
+The value of K has a quite interesting relation with the Mandelbrot set:
+1.)If K is inside the Mandelbrot set, then the Julia set for K will be connected. If K is outside the Mandelbrot set, 
+	then the Julia set 	for K will be disconnected (that is, it will have at least two disconnected "islands").
+2.)If we choose a K from inside the Mandelbrot set, its location inside the set will have a radical influence in the shape of the 
+   respective Julia set.The closer K is to the border of the Mandelbrot set, the "thinner" an more "whirly" the correspondent Julia 
+   set will be. If we choose a K farther away from the border, the respective Julia set will be "thicker".
+3.)If we choose a K which is very close to the border of the Mandelbrot set, there will also be a close relation between the shape of the 
+	Julia set and the shape of the border of the Mandelbrot set at that place. Zooming in the Mandelbrot set around K will bring up shapes 
+	that look like the Julia set for K.
+	For these reasons it is said that the Mandelbrot set is a "map" of all the Julia sets.
